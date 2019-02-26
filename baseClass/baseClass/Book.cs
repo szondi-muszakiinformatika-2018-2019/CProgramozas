@@ -13,14 +13,14 @@ namespace baseClass
         public int pages;
 
         //Konstruktor - minden objektum létrehozásakor lefut egyszer
-        /* public Book(string aTitle,string aAuthor, int aPages)
+        /*public Book(string aTitle,string aAuthor, int aPages)
          {
 
              title = aTitle;
              author = aAuthor;
              pages = aPages;
          }
-         */
+        */
 
     }
 }
