@@ -1,4 +1,4 @@
-# CProgramozas
+# C#Programozas
 
 ## Első projektünk: Függvények megismerése, solution name: baseFunction
 
