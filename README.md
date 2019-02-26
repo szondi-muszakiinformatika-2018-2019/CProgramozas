@@ -1,3 +1,7 @@
 # CProgramozas
 
 ## Első projektünk: Függvények megismerése, solution name: baseFunction()
+
+Függvények felépítése:
+
+visszatérési_érték függvény_neve(paraméter_lista_tipusa paraméter_neve)
