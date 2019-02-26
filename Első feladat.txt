@@ -1,3 +1,5 @@
 ## Készítsetek olyan függvényt, ami a paraméterül kapott sztringet visszafelé kiirja.
 
 ez érdekes volt
+
+miért nem szinkronizál?
