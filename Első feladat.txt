@@ -1,1 +1,2 @@
 ## Készítsetek olyan függvényt, ami a paraméterül kapott sztringet visszafelé kiirja.
+
