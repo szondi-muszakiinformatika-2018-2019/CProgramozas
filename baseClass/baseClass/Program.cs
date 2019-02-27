@@ -14,18 +14,44 @@ namespace baseClass
                 Book mybook1 = new Book(); 
              */
 
-            Book[] myBooks;
+            Book[] myBooks = new Book[5];
+            
             string cim;
             string iro;
             int lapszam;
+            int konyvszam;
+            
+            //Bekérjük a könyvek számát
+            Console.Write("Kérem a könyvek számát:");
+            konyvszam = int.Parse(Console.ReadLine());
 
-            for (int i = 0;i<5;i++)
+            //Adatbekérés
+            for (int i = 0;i < konyvszam ;i++)
             {
+                //Adatbekérés 
                 Console.Write("Kérem a(z) {0}. könyv cimét: ",i+1);
                 cim = Console.ReadLine();
-            }
+                Console.Write("Kérem a(z) {0}. könyv íróját: ", i + 1);
+                iro = Console.ReadLine();
+                Console.Write("Kérem a(z) {0}. könyv lapjainak számát: ", i + 1);
+                lapszam = int.Parse(Console.ReadLine());
+                /*
+                 * 
+                 */
+                //Tömbfeltöltés
+                myBooks[i] = new Book();
+                myBooks[i].Name = cim;
+                myBooks[i].Author = iro;
+                myBooks[i].Pages = lapszam;
 
-            
+
+            }
+            //adatkiiratás
+            Console.WriteLine("A könyvtáram tartalma:");
+            for (int i = 0;i<konyvszam;i++)
+            {
+                Console.WriteLine(myBooks[i].Name);
+            }
             Console.ReadLine();
 
         }
