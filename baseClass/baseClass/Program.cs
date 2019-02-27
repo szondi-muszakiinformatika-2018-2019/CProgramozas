@@ -10,16 +10,22 @@ namespace baseClass
     {
         static void Main(string[] args)
         {
+            /**
+                Book mybook1 = new Book(); 
+             */
 
-            Book myBook = new Book();
-            myBook.title = "Oroszlánkölykök";
-            myBook.author = "Irvin Shaw";
-            myBook.pages = 400;
+            Book[] myBooks;
+            string cim;
+            string iro;
+            int lapszam;
 
+            for (int i = 0;i<5;i++)
+            {
+                Console.Write("Kérem a(z) {0}. könyv cimét: ",i+1);
+                cim = Console.ReadLine();
+            }
 
-            Console.WriteLine("Cime: {0}", myBook.title);
-            Console.WriteLine("Szerző: {0}", myBook.author);
-            Console.WriteLine("Szerző: {0}", myBook.author);
+            
             Console.ReadLine();
 
         }

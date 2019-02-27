@@ -8,9 +8,9 @@ namespace baseClass
 {
     class Book
     {
-        public string title;
-        public string author;
-        public int pages;
+        public string Name;
+        public string Author;
+        public int Pages;
 
         //Konstruktor - minden objektum létrehozásakor lefut egyszer
         /*public Book(string aTitle,string aAuthor, int aPages)
