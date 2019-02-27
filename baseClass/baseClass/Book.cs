@@ -11,6 +11,7 @@ namespace baseClass
         public string Name;
         public string Author;
         private int Pages;
+        
         public int pages
         {
             get { return Pages; }
@@ -23,10 +24,10 @@ namespace baseClass
 
 
         //Konstruktor - minden objektum létrehozásakor lefut egyszer
-        public Book(string aTitle,string aAuthor, int aPages)
+        public Book(string aName,string aAuthor, int aPages)
          {
 
-             Name = aTitle;
+             Name = aName;
              Author = aAuthor;
             if(aPages > 0)
              Pages = aPages;
