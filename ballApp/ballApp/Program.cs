@@ -14,7 +14,7 @@ namespace ballApp
 
         static void Main(string[] args)
         {
-                        
+                         
                 int x = 15, y = 0;
                 int xvect = 1;
                 int yvect = 1;

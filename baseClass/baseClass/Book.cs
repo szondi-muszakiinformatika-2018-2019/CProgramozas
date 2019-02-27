@@ -10,17 +10,31 @@ namespace baseClass
     {
         public string Name;
         public string Author;
-        public int Pages;
+        private int Pages;
+        public int pages
+        {
+            get { return Pages; }
+            set
+            {
+                if (value < 0)
+                    throw new Exception("Invalid Pages value");
+            }
+        }
+
 
         //Konstruktor - minden objektum létrehozásakor lefut egyszer
-        /*public Book(string aTitle,string aAuthor, int aPages)
+        public Book(string aTitle,string aAuthor, int aPages)
          {
 
-             title = aTitle;
-             author = aAuthor;
-             pages = aPages;
-         }
-        */
+             Name = aTitle;
+             Author = aAuthor;
+            if(aPages > 0)
+             Pages = aPages;
+            else
+                throw new Exception("Invalid Pages value");
+
+        }
+        
 
     }
 }
