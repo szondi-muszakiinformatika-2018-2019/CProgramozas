@@ -11,7 +11,7 @@ namespace baseFunction
         static void Main(string[] args)
         {
 
-            //Függvény meghívása
+            //Függvény meghívása többször
             Console.WriteLine(baseAdd(5, 6));
             Console.WriteLine(baseMine(18, 6));
             Console.WriteLine(baseMul(18, 6));
