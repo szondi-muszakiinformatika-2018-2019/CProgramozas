@@ -6,6 +6,7 @@ Függvények felépítése:
 
 visszatérési_érték függvény_neve(paraméter_lista_tipusa paraméter_neve)
 
+pl: static int addNum(int a, int b){return a+b;}
 
 
 ## Második projektünk: Osztályok létrehozása, szerepük
