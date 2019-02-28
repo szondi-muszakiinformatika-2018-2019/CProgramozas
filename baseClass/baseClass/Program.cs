@@ -39,11 +39,9 @@ namespace baseClass
                  * 
                  */
                 //Tömbfeltöltés
-                myBooks[i] = new Book();
-                myBooks[i].Name = cim;
-                myBooks[i].Author = iro;
-                myBooks[i].Pages = lapszam;
-
+                myBooks[i] = new Book(cim,iro,lapszam);
+               
+               
 
             }
             //adatkiiratás
